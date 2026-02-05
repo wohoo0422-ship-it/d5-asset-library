@@ -27,8 +27,7 @@ export const FloatingCTA: React.FC = () => {
         className="bg-brand-accent text-white hover:bg-white hover:text-brand-darker hover:scale-105 px-6 py-4 rounded-full shadow-2xl shadow-black/30 transition-all duration-500 flex items-center justify-center gap-3 font-bold group border border-white/10"
       >
         <ShoppingCart className="w-5 h-5 group-hover:animate-bounce" />
-        <span className="hidden md:inline tracking-widest">立即購買</span>
-        <span className="md:hidden">購買</span>
+        <span className="tracking-widest">立即購買</span>
       </a>
     </div>
   );
